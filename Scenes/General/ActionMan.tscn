@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://dh30lf2ac7goi"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_24pmt"]
+radius = 25.0
+height = 226.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3fbvw"]
+radius = 25.0
+height = 112.0
+
+[node name="ActionMan" type="CharacterBody2D"]
+
+[node name="ColliderUp" type="CollisionShape2D" parent="."]
+position = Vector2(0, -113)
+shape = SubResource("CapsuleShape2D_24pmt")
+metadata/_edit_lock_ = true
+
+[node name="ColliderDown" type="CollisionShape2D" parent="."]
+position = Vector2(0, -56)
+shape = SubResource("CapsuleShape2D_3fbvw")
+metadata/_edit_lock_ = true

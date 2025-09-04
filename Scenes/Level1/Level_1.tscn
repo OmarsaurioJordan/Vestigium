@@ -1,0 +1,2379 @@
+[gd_scene load_steps=58 format=3 uid="uid://cyoyc138gk4hh"]
+
+[ext_resource type="Texture2D" uid="uid://dd45b1wy5kbyk" path="res://Assets/Sprites/Level1/Background/background_6.png" id="1_0v3kl"]
+[ext_resource type="PackedScene" uid="uid://bbe4kt0l4dtej" path="res://Scenes/Level1/Objects/Back_mountains.tscn" id="2_rlky8"]
+[ext_resource type="Texture2D" uid="uid://janbnviy4oby" path="res://Assets/Sprites/Level1/Background/background_5.png" id="3_0mm5j"]
+[ext_resource type="Texture2D" uid="uid://ld5kfa3prstf" path="res://Assets/Sprites/Level1/Nature/dessert_1.png" id="4_1t6mn"]
+[ext_resource type="Texture2D" uid="uid://dt0sc8dxw17sr" path="res://Assets/Sprites/Level1/Wall/wall_2.png" id="4_sjlj3"]
+[ext_resource type="Texture2D" uid="uid://ccpk3gydxguvw" path="res://Assets/Sprites/Level1/Town/house_1.png" id="4_vuwed"]
+[ext_resource type="Texture2D" uid="uid://daq4mm1icnfg1" path="res://Assets/Sprites/Level1/Wall/wall_4.png" id="5_3kygc"]
+[ext_resource type="Texture2D" uid="uid://c3cahslfla262" path="res://Assets/Sprites/Level1/Town/house_3.png" id="5_j1mqi"]
+[ext_resource type="Texture2D" uid="uid://b4jcae5ftn1po" path="res://Assets/Sprites/Level1/Nature/grass_4.png" id="5_vc8ie"]
+[ext_resource type="Texture2D" uid="uid://b8du7kqfqfkkk" path="res://Assets/Sprites/Level1/Nature/grass_1.png" id="6_0hypk"]
+[ext_resource type="Texture2D" uid="uid://ljxc3un1vns0" path="res://Assets/Sprites/Level1/Wall/wall_13.png" id="6_h1l8o"]
+[ext_resource type="Texture2D" uid="uid://clgau080bnck8" path="res://Assets/Sprites/Level1/Town/house_7.png" id="6_pnp2v"]
+[ext_resource type="Texture2D" uid="uid://bq6bme3ctlqom" path="res://Assets/Sprites/Level1/Town/house_5.png" id="7_6j5st"]
+[ext_resource type="Texture2D" uid="uid://8fhvme6aq3y1" path="res://Assets/Sprites/Level1/Wall/ruins_12.png" id="7_dph7i"]
+[ext_resource type="Texture2D" uid="uid://cn3h4bahs0hlk" path="res://Assets/Sprites/Level1/Wall/wall_1.png" id="8_hrstw"]
+[ext_resource type="Texture2D" uid="uid://dpui21hnrcnsk" path="res://Assets/Sprites/Level1/Town/house_2.png" id="8_yl3ud"]
+[ext_resource type="Texture2D" uid="uid://cjt1fggeps42t" path="res://Assets/Sprites/Level1/Wall/ruins_7.png" id="9_o4rd7"]
+[ext_resource type="Texture2D" uid="uid://bipdxvu6b5cf3" path="res://Assets/Sprites/Level1/Town/house_8.png" id="9_pnp2v"]
+[ext_resource type="Texture2D" uid="uid://bd7sf5vj3ra2f" path="res://Assets/Sprites/Level1/Town/house_9.png" id="10_6j5st"]
+[ext_resource type="Texture2D" uid="uid://dvi5p15aj8rip" path="res://Assets/Sprites/Level1/Wall/ruins_3.png" id="10_maqk5"]
+[ext_resource type="Texture2D" uid="uid://bl2drajn1xits" path="res://Assets/Sprites/Level1/Town/wood_17.png" id="11_kgd8n"]
+[ext_resource type="Texture2D" uid="uid://dn6vtkvv8kdjm" path="res://Assets/Sprites/Level1/Wall/ruins_9.png" id="11_maqk5"]
+[ext_resource type="Texture2D" uid="uid://lcya3mkpty7r" path="res://Assets/Sprites/Level1/Wall/wall_3.png" id="11_moec6"]
+[ext_resource type="Texture2D" uid="uid://frxh42loshlt" path="res://Assets/Sprites/Level1/Wall/ruins_1.png" id="11_nq8cl"]
+[ext_resource type="Texture2D" uid="uid://cy2hudss3ffwi" path="res://Assets/Sprites/Level1/Town/wood_1.png" id="12_sb4a8"]
+[ext_resource type="Texture2D" uid="uid://tq8b43tfyokh" path="res://Assets/Sprites/Level1/Wall/wall_14.png" id="13_dn2eb"]
+[ext_resource type="Texture2D" uid="uid://dgs4gyp46eq5e" path="res://Assets/Sprites/Level1/Town/wood_2.png" id="13_eduth"]
+[ext_resource type="Texture2D" uid="uid://b5pl251kxe7m1" path="res://Assets/Sprites/Level1/Town/wood_16.png" id="14_7yyoa"]
+[ext_resource type="Texture2D" uid="uid://ctnd2jnm6ms0u" path="res://Assets/Sprites/Level1/Town/platform_5.png" id="15_asqt8"]
+[ext_resource type="PackedScene" uid="uid://dxmwxaewu0hfa" path="res://Scenes/General/Torch.tscn" id="15_sb4a8"]
+[ext_resource type="Texture2D" uid="uid://dcwqhnq1lfld2" path="res://Assets/Sprites/Level1/Town/platform_9.png" id="17_2y404"]
+[ext_resource type="Texture2D" uid="uid://c8472bbs34mvn" path="res://Assets/Sprites/Level1/Town/platform_2.png" id="17_fbgu5"]
+[ext_resource type="Texture2D" uid="uid://biq78xpr7knly" path="res://Assets/Sprites/Level1/Town/platform_12.png" id="17_lwivu"]
+[ext_resource type="Texture2D" uid="uid://cv6alnk1bu1nv" path="res://Assets/Sprites/Level1/Town/platform_15.png" id="18_lwivu"]
+[ext_resource type="Texture2D" uid="uid://bstts1yta4rlb" path="res://Assets/Sprites/Level1/Town/platform_11.png" id="20_nguph"]
+[ext_resource type="Texture2D" uid="uid://djpj4e5ixm3o1" path="res://Assets/Sprites/Level1/Town/platform_10.png" id="21_nguph"]
+[ext_resource type="Texture2D" uid="uid://c43qks0d46cmn" path="res://Assets/Sprites/Level1/Town/platform_8.png" id="23_4s4jx"]
+[ext_resource type="Texture2D" uid="uid://slo5vl81asn4" path="res://Assets/Sprites/Level1/Town/platform_21.png" id="23_kokrn"]
+[ext_resource type="Texture2D" uid="uid://ddyqc3burdpby" path="res://Assets/Sprites/Level1/Town/platform_6.png" id="24_c47yd"]
+[ext_resource type="Texture2D" uid="uid://bkig2s841jh0w" path="res://Assets/Sprites/Level1/Town/platform_14.png" id="24_gx0t6"]
+[ext_resource type="Texture2D" uid="uid://c1tfp8jr6s4bk" path="res://Assets/Sprites/General/Tutorial/Keymovement.png" id="26_hrstw"]
+[ext_resource type="Texture2D" uid="uid://b5hd8rrxu5nub" path="res://Assets/Sprites/General/Tutorial/Movement.png" id="27_83omp"]
+[ext_resource type="Texture2D" uid="uid://clfx0byxumrql" path="res://Assets/Sprites/Level1/Wall/wall_8.png" id="27_b3cgj"]
+[ext_resource type="Texture2D" uid="uid://bhfavlj6bra36" path="res://Assets/Sprites/Level1/Wall/wall_5.png" id="27_hbiil"]
+[ext_resource type="Texture2D" uid="uid://bqslwm8pvcj4r" path="res://Assets/Sprites/Level1/Wall/wall_7.png" id="28_qpjic"]
+[ext_resource type="Texture2D" uid="uid://bq3ij50sfbvum" path="res://Assets/Sprites/General/Tutorial/KeyJump.png" id="28_rutiv"]
+[ext_resource type="Texture2D" uid="uid://viiw1m7fpe4f" path="res://Assets/Sprites/General/Tutorial/Jump.png" id="29_moec6"]
+[ext_resource type="Texture2D" uid="uid://b715h8abfp4op" path="res://Assets/Sprites/General/Tutorial/KeyAttack.png" id="32_31xfj"]
+[ext_resource type="Texture2D" uid="uid://j5xdrm23lgdf" path="res://Assets/Sprites/General/Tutorial/Attack.png" id="33_asqt8"]
+[ext_resource type="Texture2D" uid="uid://d3wpn1dahskh" path="res://Assets/Sprites/Level1/Town/platform_13.png" id="33_nguph"]
+[ext_resource type="Texture2D" uid="uid://blniiuvuoev22" path="res://Assets/Sprites/General/Tutorial/Crouch.png" id="34_fbgu5"]
+[ext_resource type="Texture2D" uid="uid://b02b6pc481u22" path="res://Assets/Sprites/General/Tutorial/KeyCrouch.png" id="35_lwivu"]
+[ext_resource type="Texture2D" uid="uid://x2vmeeakatmi" path="res://Assets/Sprites/General/Ladder/ladder2.png" id="40_bqsoo"]
+[ext_resource type="Texture2D" uid="uid://cemqaabkrri5g" path="res://Assets/Sprites/General/Ladder/ladder3.png" id="41_kokrn"]
+[ext_resource type="Texture2D" uid="uid://djcntebv1nevr" path="res://Assets/Sprites/General/Ladder/ladder1.png" id="42_c47yd"]
+[ext_resource type="PackedScene" uid="uid://dh30lf2ac7goi" path="res://Scenes/General/ActionMan.tscn" id="55_c47yd"]
+[ext_resource type="Texture2D" uid="uid://kyfft3aytmmn" path="res://Assets/Sprites/General/Lights/Light_linear.png" id="56_u1ev3"]
+
+[node name="Level1" type="Node"]
+
+[node name="Background" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="Background" type="Sprite2D" parent="Background"]
+scale = Vector2(17, 3)
+texture = ExtResource("1_0v3kl")
+centered = false
+metadata/_edit_lock_ = true
+
+[node name="BackMountains1" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(3487, 3782.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains2" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(5984, 3782.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains3" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(8481, 3782.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains4" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(10979, 3782.45)
+metadata/_edit_lock_ = true
+
+[node name="Ground2" type="Sprite2D" parent="Background"]
+position = Vector2(14040, 4251.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground1" type="Sprite2D" parent="Background"]
+position = Vector2(13333, 4027.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground19" type="Sprite2D" parent="Background"]
+position = Vector2(12184, 3927)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground3" type="Sprite2D" parent="Background"]
+position = Vector2(15402, 4066.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="BackMountains5" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(17371, 3571.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains6" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(19869, 3572.45)
+metadata/_edit_lock_ = true
+
+[node name="Ground4" type="Sprite2D" parent="Background"]
+position = Vector2(16721, 3829.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground20" type="Sprite2D" parent="Background"]
+position = Vector2(16535, 3646)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground5" type="Sprite2D" parent="Background"]
+position = Vector2(22248, 3583.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground6" type="Sprite2D" parent="Background"]
+position = Vector2(23684, 3466.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground7" type="Sprite2D" parent="Background"]
+position = Vector2(26180, 3466.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground8" type="Sprite2D" parent="Background"]
+position = Vector2(28669, 3465.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground9" type="Sprite2D" parent="Background"]
+position = Vector2(31164, 3467.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground10" type="Sprite2D" parent="Background"]
+position = Vector2(33652, 3467.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground14" type="Sprite2D" parent="Background"]
+position = Vector2(36339, 3906.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground15" type="Sprite2D" parent="Background"]
+position = Vector2(38455, 3913.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground16" type="Sprite2D" parent="Background"]
+position = Vector2(40002, 3696.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground17" type="Sprite2D" parent="Background"]
+position = Vector2(40319, 3402.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground18" type="Sprite2D" parent="Background"]
+position = Vector2(42347, 3405.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground12" type="Sprite2D" parent="Background"]
+position = Vector2(35733, 3635.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground13" type="Sprite2D" parent="Background"]
+position = Vector2(35956, 3435.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="Ground11" type="Sprite2D" parent="Background"]
+position = Vector2(34109, 3825.45)
+scale = Vector2(0.61, 0.864)
+texture = ExtResource("3_0mm5j")
+metadata/_edit_lock_ = true
+
+[node name="BackMountains7" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(38750, 3429.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains8" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(43514, 3097.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains9" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(46011, 3096.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains10" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(48506, 3096.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains11" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(50998, 3096.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains12" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(53493, 3094.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains13" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(55984, 3094.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains14" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(58477, 3096.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains15" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(60970, 3094.45)
+metadata/_edit_lock_ = true
+
+[node name="BackMountains16" parent="Background" instance=ExtResource("2_rlky8")]
+position = Vector2(63463, 3094.45)
+metadata/_edit_lock_ = true
+
+[node name="BackObjects" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="Castles" type="Node2D" parent="BackObjects"]
+metadata/_edit_lock_ = true
+
+[node name="Ruins" type="Node2D" parent="BackObjects/Castles"]
+metadata/_edit_lock_ = true
+
+[node name="Wall2" type="Sprite2D" parent="BackObjects/Castles/Ruins"]
+position = Vector2(10822.7, 3403.51)
+rotation = 0.0733038
+texture = ExtResource("4_sjlj3")
+metadata/_edit_lock_ = true
+
+[node name="Wall1" type="Sprite2D" parent="BackObjects/Castles/Ruins"]
+position = Vector2(10830.7, 3731.51)
+rotation = 0.0733038
+texture = ExtResource("5_3kygc")
+metadata/_edit_lock_ = true
+
+[node name="Wall3" type="Sprite2D" parent="BackObjects/Castles/Ruins"]
+position = Vector2(11141, 3615.11)
+rotation = 0.102974
+texture = ExtResource("6_h1l8o")
+metadata/_edit_lock_ = true
+
+[node name="Wall4" type="Sprite2D" parent="BackObjects/Castles/Ruins"]
+position = Vector2(11530, 3784)
+texture = ExtResource("7_dph7i")
+metadata/_edit_lock_ = true
+
+[node name="Basement" type="Node2D" parent="BackObjects/Castles"]
+metadata/_edit_lock_ = true
+
+[node name="WallBack" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14162, 3581)
+scale = Vector2(2.52, 2.7)
+texture = ExtResource("8_hrstw")
+metadata/_edit_lock_ = true
+
+[node name="Wall23" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(12665, 3427)
+rotation = -3.14159
+scale = Vector2(1.8, 1.8)
+texture = ExtResource("10_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall1" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(12241, 3301)
+scale = Vector2(1.5, 2)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall27" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13039, 3517)
+rotation = 0.698132
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall26" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(12826, 3349)
+rotation = 0.698132
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall30" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13488, 3904)
+scale = Vector2(2.2, 2.2)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall32" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13195, 3764)
+scale = Vector2(2.2, 2.2)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall36" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13025.4, 3144.59)
+rotation = 0.785398
+scale = Vector2(2.2, 1.75006)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall39" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(15030, 3927)
+rotation = 2.35619
+scale = Vector2(2.67367, 1.75006)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall40" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14455, 4289)
+rotation = 2.35619
+scale = Vector2(2.67367, 1.75006)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall25" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13260, 3698)
+rotation = 0.698132
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall22" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(15838, 3355)
+rotation = -3.14159
+scale = Vector2(1.8, 1.8)
+texture = ExtResource("10_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall3" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(12248, 3674)
+rotation = -1.5708
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("11_nq8cl")
+metadata/_edit_lock_ = true
+
+[node name="Wall24" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13264, 3935)
+rotation = -1.5708
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("11_nq8cl")
+metadata/_edit_lock_ = true
+
+[node name="Wall18" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(16064, 3518)
+rotation = -1.5708
+scale = Vector2(1.3, -1.3)
+texture = ExtResource("11_nq8cl")
+metadata/_edit_lock_ = true
+
+[node name="Wall2" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(12563, 3270)
+scale = Vector2(1.7, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall35" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13068, 3089)
+scale = Vector2(1.7, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall14" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14190, 2887)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("11_moec6")
+metadata/_edit_lock_ = true
+
+[node name="Wall4" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(12516, 3382)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall5" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(12238, 3468)
+scale = Vector2(1.5, 2)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall6" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(16077, 3220)
+scale = Vector2(1.5, 2)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall42" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(16081, 3362)
+scale = Vector2(1.5, 2)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall7" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(15778, 3197)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall13" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14744, 3381)
+rotation = -3.14159
+scale = Vector2(1.8, 1.8)
+texture = ExtResource("10_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall8" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(15488, 3197)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall37" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(15375, 3197)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall21" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(15024, 3495)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall38" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(15029, 3818)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall9" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14927, 3432)
+rotation = 1.5708
+scale = Vector2(1.5, 2)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall19" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14926, 3653)
+rotation = 1.5708
+scale = Vector2(1.5, 2)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall20" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14926, 3943)
+rotation = 1.5708
+scale = Vector2(1.5, 2)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall10" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14508, 3203)
+scale = Vector2(1.7, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall17" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14809, 3209)
+scale = Vector2(1.7, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall11" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14163, 3194)
+scale = Vector2(1.7, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall28" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13210, 3179)
+scale = Vector2(1.7, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall12" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13819, 3190)
+scale = Vector2(1.7, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall16" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13543, 3181)
+scale = Vector2(1.7, 1.5)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall15" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14181, 2823)
+scale = Vector2(1.7, 1.5)
+texture = ExtResource("13_dn2eb")
+metadata/_edit_lock_ = true
+
+[node name="Wall29" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13865, 4245)
+scale = Vector2(2.2, 2.2)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall33" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13868, 4000)
+scale = Vector2(2.2, 2.2)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall34" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(13865, 3763)
+scale = Vector2(2.2, 2.2)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall31" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14511, 4181)
+scale = Vector2(2.2, 2.2)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall41" type="Sprite2D" parent="BackObjects/Castles/Basement"]
+position = Vector2(14416, 3924)
+scale = Vector2(2.2, 2.2)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Castle" type="Node2D" parent="BackObjects/Castles"]
+metadata/_edit_lock_ = true
+
+[node name="Background" type="Node2D" parent="BackObjects/Castles/Castle"]
+metadata/_edit_lock_ = true
+
+[node name="Wall4" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(22848, 3615)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall5" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(23786, 3615)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall6" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(24728, 3615)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall7" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(25660, 3608)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall8" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(26622, 3608)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall9" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(27584, 3608)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall10" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(28257, 3586)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall11" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(22826, 3289)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall12" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(23764, 3289)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall13" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(24706, 3289)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall14" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(25638, 3282)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall15" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(26600, 3282)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall16" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(27562, 3282)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall17" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(28235, 3260)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall18" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(22804, 3000)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall25" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(21849, 3000)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall19" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(23742, 3000)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall20" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(24684, 3000)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall21" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(25616, 2993)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall22" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(26578, 2993)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall23" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(27540, 2993)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall24" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(28213, 2971)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall27" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(29421, 3642)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall28" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(30383, 3642)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall29" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(31056, 3620)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall30" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(29399, 3316)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall31" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(30361, 3316)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall32" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(31034, 3294)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall33" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(29377, 3027)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall34" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(30339, 3027)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall35" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(31012, 3005)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall52" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(28118, 4295)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall36" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(32006, 3623)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall37" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(32968, 3623)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall38" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(33656, 3645)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall39" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(31984, 3297)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall40" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(32946, 3297)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall41" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(33634, 3319)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall42" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(31962, 3008)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall43" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(32924, 3008)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall44" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(33612, 3030)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall45" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(34610, 3636)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall46" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(35305, 3666)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall47" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(34588, 3310)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall48" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(35283, 3340)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall49" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(34566, 3021)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall50" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(35261, 3051)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall51" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(36247, 3664)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall53" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(36225, 3338)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall55" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(36203, 3049)
+scale = Vector2(2.5, 3)
+texture = ExtResource("15_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Wall2" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(21298, 3243)
+scale = Vector2(3, 3)
+texture = ExtResource("11_moec6")
+metadata/_edit_lock_ = true
+
+[node name="Wall3" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(21887, 3235)
+scale = Vector2(3, 3)
+texture = ExtResource("11_moec6")
+metadata/_edit_lock_ = true
+
+[node name="Wall1" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(20686, 3196)
+scale = Vector2(2, 2)
+texture = ExtResource("27_b3cgj")
+metadata/_edit_lock_ = true
+
+[node name="Wall26" type="Sprite2D" parent="BackObjects/Castles/Castle/Background"]
+position = Vector2(25987, 3737)
+scale = Vector2(2, 1.5)
+texture = ExtResource("17_2y404")
+metadata/_edit_lock_ = true
+
+[node name="Walls" type="Node2D" parent="BackObjects/Castles/Castle"]
+metadata/_edit_lock_ = true
+
+[node name="Wall19" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(23838, 3553)
+rotation = -0.598648
+scale = Vector2(2, 1)
+texture = ExtResource("17_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall32" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(24531, 3790)
+rotation = 0.598648
+scale = Vector2(2, 1.2)
+texture = ExtResource("17_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall33" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(24936, 3832)
+rotation = 0.598648
+scale = Vector2(2, 1)
+texture = ExtResource("17_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall31" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(24559, 3580)
+rotation = 0.598648
+scale = Vector2(2, 1)
+texture = ExtResource("17_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall2" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(22957, 3715)
+scale = Vector2(1.8, 1.8)
+texture = ExtResource("17_fbgu5")
+metadata/_edit_lock_ = true
+
+[node name="Wall3" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(23642, 3715)
+scale = Vector2(1.8, 1.8)
+texture = ExtResource("17_fbgu5")
+metadata/_edit_lock_ = true
+
+[node name="Wall5" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(22283, 3268)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall20" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(20731, 3376)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall27" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(20871, 2856)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall21" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(21146, 2703.4)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall22" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(21301, 2704.4)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall24" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(21455, 2701.4)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall23" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(21609, 2699.4)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall25" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(21764, 2696.4)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall26" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(21920, 2693)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall6" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(22441, 3267)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall7" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(22610, 3266)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall10" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(23056, 3147)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall11" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(23226, 3147)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall15" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(23853, 3087)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall16" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(24021, 3089)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall17" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(24162, 3088)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall12" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(23392, 3147)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall13" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(23554, 3147)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall8" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(22752, 3235)
+rotation = -0.349066
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall9" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(22906, 3175)
+rotation = -0.349066
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall14" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(23703, 3118)
+rotation = -0.349066
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Tower2" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(20380, 3147)
+scale = Vector2(2, 2)
+texture = ExtResource("20_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Platform10" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(22405, 2625)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("21_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Wall28" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(22335, 2741.4)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall29" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(22493, 2738.4)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall30" type="Sprite2D" parent="BackObjects/Castles/Castle/Walls"]
+position = Vector2(20382, 3221)
+scale = Vector2(0.977273, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Tower" type="Node2D" parent="BackObjects/Castles/Castle"]
+metadata/_edit_lock_ = true
+
+[node name="Wall20" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(25404, 2425)
+scale = Vector2(1.4, 1.4)
+texture = ExtResource("17_fbgu5")
+metadata/_edit_lock_ = true
+
+[node name="Wall23" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(25288, 3048)
+rotation = -2.0944
+scale = Vector2(1, 2.014)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall24" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26941, 3087)
+rotation = 1.91986
+scale = Vector2(1, 2.014)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall22" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26870, 3733)
+rotation = 1.5708
+scale = Vector2(1.33275, 0.927216)
+texture = ExtResource("23_kokrn")
+metadata/_edit_lock_ = true
+
+[node name="Wall21" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26794, 2422)
+scale = Vector2(1.4, 1.4)
+texture = ExtResource("17_fbgu5")
+metadata/_edit_lock_ = true
+
+[node name="Wall19" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26101, 2215)
+scale = Vector2(1.7, 1.7)
+texture = ExtResource("24_c47yd")
+metadata/_edit_lock_ = true
+
+[node name="Wall4" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26105, 2316)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("21_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Wall3" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26107, 2745)
+scale = Vector2(1.5, 1.25)
+texture = ExtResource("17_2y404")
+metadata/_edit_lock_ = true
+
+[node name="Wall1" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(25406, 2733)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("23_4s4jx")
+metadata/_edit_lock_ = true
+
+[node name="Wall2" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26801, 2732)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("23_4s4jx")
+metadata/_edit_lock_ = true
+
+[node name="Wall25" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(25263, 2951)
+scale = Vector2(0.75, 1.5)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall5" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(25560, 3545)
+scale = Vector2(1.5, 1)
+texture = ExtResource("17_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall6" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(25977, 3545)
+scale = Vector2(1.5, 1)
+texture = ExtResource("17_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall7" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26401, 3543)
+scale = Vector2(1.5, 1)
+texture = ExtResource("17_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Wall8" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(25391, 3032)
+rotation = 1.5708
+scale = Vector2(1, 1.5)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall9" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(25393, 3241)
+rotation = 1.5708
+scale = Vector2(1, 1.5)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall26" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26935, 2965)
+scale = Vector2(0.75, 1.5)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall17" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(25820, 2946)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall10" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26868, 3418)
+rotation = 1.5708
+scale = Vector2(1, 1.5)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall12" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(25890, 2946)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall15" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(25396, 2854)
+scale = Vector2(0.8, 1)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall18" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26110, 2424)
+scale = Vector2(0.8, 1)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall13" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26266, 2940)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall14" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26638, 2930)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall11" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26868, 3038)
+rotation = 1.5708
+scale = Vector2(1, 1.5)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Wall16" type="Sprite2D" parent="BackObjects/Castles/Castle/Tower"]
+position = Vector2(26809, 2858)
+scale = Vector2(0.8, 1)
+texture = ExtResource("24_gx0t6")
+metadata/_edit_lock_ = true
+
+[node name="Well" type="Node2D" parent="BackObjects/Castles/Castle"]
+metadata/_edit_lock_ = true
+
+[node name="Wall2" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+self_modulate = Color(0.533037, 0.533037, 0.533037, 1)
+position = Vector2(28757, 4032)
+scale = Vector2(3, 3)
+texture = ExtResource("27_hbiil")
+metadata/_edit_lock_ = true
+
+[node name="Wall1" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+self_modulate = Color(0.533037, 0.533037, 0.533037, 1)
+position = Vector2(28757, 2741)
+scale = Vector2(3, 3)
+texture = ExtResource("27_hbiil")
+metadata/_edit_lock_ = true
+
+[node name="Wall20" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+self_modulate = Color(0.533037, 0.533037, 0.533037, 1)
+position = Vector2(36789, 4179)
+scale = Vector2(3, 3)
+texture = ExtResource("27_hbiil")
+metadata/_edit_lock_ = true
+
+[node name="Wall21" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+self_modulate = Color(0.533037, 0.533037, 0.533037, 1)
+position = Vector2(36789, 2888)
+scale = Vector2(3, 3)
+texture = ExtResource("27_hbiil")
+metadata/_edit_lock_ = true
+
+[node name="Wall3" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(27846, 3964)
+scale = Vector2(2, 2)
+texture = ExtResource("10_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall4" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(28151, 3962)
+scale = Vector2(2, 2)
+texture = ExtResource("10_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall5" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(28154, 3765)
+scale = Vector2(2, 2)
+texture = ExtResource("10_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall6" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(28334, 3755)
+rotation = 0.958186
+scale = Vector2(2, 2)
+texture = ExtResource("10_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall7" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(28776, 3980)
+rotation = -1.1973
+scale = Vector2(2, 2)
+texture = ExtResource("10_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall8" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(28783, 3779)
+rotation = -1.1973
+scale = Vector2(2, 2)
+texture = ExtResource("10_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall9" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(29128, 3941)
+scale = Vector2(2, 2)
+texture = ExtResource("10_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall10" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(29091, 3764)
+scale = Vector2(2, 2)
+texture = ExtResource("10_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall11" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(28325, 4017)
+rotation = 0.958186
+scale = Vector2(2, 2)
+texture = ExtResource("10_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall12" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(27812, 3836)
+rotation = -0.598648
+scale = Vector2(1.5, 1.2)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall13" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(28044, 3688)
+rotation = -0.598648
+scale = Vector2(1.5, 1.2)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall14" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(28295, 3616)
+scale = Vector2(1.5, 1.2)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall17" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(28788, 3246)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall15" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(28862, 3622)
+scale = Vector2(1.5, 1.2)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Wall18" type="Sprite2D" parent="BackObjects/Castles/Castle/Well"]
+position = Vector2(29150, 3622)
+scale = Vector2(1.5, 1.2)
+texture = ExtResource("9_o4rd7")
+metadata/_edit_lock_ = true
+
+[node name="Platforms" type="Node2D" parent="BackObjects/Castles/Castle"]
+metadata/_edit_lock_ = true
+
+[node name="Plat1" type="Sprite2D" parent="BackObjects/Castles/Castle/Platforms"]
+position = Vector2(21972, 3803)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Plat2" type="Sprite2D" parent="BackObjects/Castles/Castle/Platforms"]
+position = Vector2(21919, 3131)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Plat6" type="Sprite2D" parent="BackObjects/Castles/Castle/Platforms"]
+position = Vector2(21488, 3665)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Plat5" type="Sprite2D" parent="BackObjects/Castles/Castle/Platforms"]
+position = Vector2(21641, 3666)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Plat3" type="Sprite2D" parent="BackObjects/Castles/Castle/Platforms"]
+position = Vector2(21609, 3225)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Plat4" type="Sprite2D" parent="BackObjects/Castles/Castle/Platforms"]
+position = Vector2(21327, 3088)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Plat7" type="Sprite2D" parent="BackObjects/Castles/Castle/Platforms"]
+position = Vector2(21162, 3547)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Plat8" type="Sprite2D" parent="BackObjects/Castles/Castle/Platforms"]
+position = Vector2(20882, 3380)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Plat9" type="Sprite2D" parent="BackObjects/Castles/Castle/Platforms"]
+position = Vector2(20876, 3193)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Plat11" type="Sprite2D" parent="BackObjects/Castles/Castle/Platforms"]
+position = Vector2(21034, 3195)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Plat10" type="Sprite2D" parent="BackObjects/Castles/Castle/Platforms"]
+position = Vector2(20874, 3029)
+scale = Vector2(0.8, 0.7)
+texture = ExtResource("18_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Houses" type="Node2D" parent="BackObjects"]
+metadata/_edit_lock_ = true
+
+[node name="House1" type="Sprite2D" parent="BackObjects/Houses"]
+position = Vector2(4086, 3747)
+rotation = -0.0558505
+scale = Vector2(1, 1)
+texture = ExtResource("4_vuwed")
+metadata/_edit_lock_ = true
+
+[node name="Spr1" type="Sprite2D" parent="BackObjects/Houses/House1"]
+position = Vector2(584.764, 2.64697)
+rotation = 0.020944
+scale = Vector2(1, 1)
+texture = ExtResource("5_j1mqi")
+metadata/_edit_lock_ = true
+
+[node name="House2" type="Sprite2D" parent="BackObjects/Houses"]
+position = Vector2(6480, 3688)
+texture = ExtResource("6_pnp2v")
+metadata/_edit_lock_ = true
+
+[node name="Spr1" type="Sprite2D" parent="BackObjects/Houses/House2"]
+position = Vector2(660, 12)
+texture = ExtResource("6_pnp2v")
+metadata/_edit_lock_ = true
+
+[node name="Spr2" type="Sprite2D" parent="BackObjects/Houses/House2"]
+position = Vector2(332, 58)
+texture = ExtResource("7_6j5st")
+metadata/_edit_lock_ = true
+
+[node name="Spr3" type="Sprite2D" parent="BackObjects/Houses/House2"]
+position = Vector2(1016, 75)
+texture = ExtResource("8_yl3ud")
+metadata/_edit_lock_ = true
+
+[node name="House3" type="Sprite2D" parent="BackObjects/Houses"]
+position = Vector2(9247, 3729)
+texture = ExtResource("6_pnp2v")
+metadata/_edit_lock_ = true
+
+[node name="Spr1" type="Sprite2D" parent="BackObjects/Houses/House3"]
+show_behind_parent = true
+position = Vector2(-4, -248)
+texture = ExtResource("4_vuwed")
+metadata/_edit_lock_ = true
+
+[node name="Spr2" type="Sprite2D" parent="BackObjects/Houses/House3"]
+show_behind_parent = true
+position = Vector2(-507, -42)
+texture = ExtResource("4_vuwed")
+metadata/_edit_lock_ = true
+
+[node name="Spr3" type="Sprite2D" parent="BackObjects/Houses/House3"]
+show_behind_parent = true
+position = Vector2(508, -47)
+texture = ExtResource("4_vuwed")
+metadata/_edit_lock_ = true
+
+[node name="House4" type="Sprite2D" parent="BackObjects/Houses"]
+position = Vector2(47289, 3169)
+texture = ExtResource("9_pnp2v")
+metadata/_edit_lock_ = true
+
+[node name="Spr1" type="Sprite2D" parent="BackObjects/Houses/House4"]
+position = Vector2(-511, -48)
+texture = ExtResource("4_vuwed")
+metadata/_edit_lock_ = true
+
+[node name="Spr2" type="Sprite2D" parent="BackObjects/Houses/House4"]
+position = Vector2(511, -58)
+texture = ExtResource("4_vuwed")
+metadata/_edit_lock_ = true
+
+[node name="House5" type="Sprite2D" parent="BackObjects/Houses"]
+position = Vector2(52632, 3081)
+texture = ExtResource("10_6j5st")
+metadata/_edit_lock_ = true
+
+[node name="Spr1" type="Sprite2D" parent="BackObjects/Houses/House5"]
+position = Vector2(1120, -3)
+texture = ExtResource("10_6j5st")
+metadata/_edit_lock_ = true
+
+[node name="House6" type="Sprite2D" parent="BackObjects/Houses"]
+position = Vector2(49603, 3098)
+texture = ExtResource("5_j1mqi")
+metadata/_edit_lock_ = true
+
+[node name="Spr1" type="Sprite2D" parent="BackObjects/Houses/House6"]
+show_behind_parent = true
+position = Vector2(-49, -534)
+scale = Vector2(0.95, 1)
+texture = ExtResource("4_vuwed")
+metadata/_edit_lock_ = true
+
+[node name="Objects" type="Node2D" parent="BackObjects"]
+metadata/_edit_lock_ = true
+
+[node name="Wood1" type="Sprite2D" parent="BackObjects/Objects"]
+position = Vector2(5779, 3858)
+texture = ExtResource("12_sb4a8")
+metadata/_edit_lock_ = true
+
+[node name="Wood2" type="Sprite2D" parent="BackObjects/Objects"]
+position = Vector2(5664, 3889)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("12_sb4a8")
+metadata/_edit_lock_ = true
+
+[node name="Wood3" type="Sprite2D" parent="BackObjects/Objects"]
+position = Vector2(5893, 3886)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("12_sb4a8")
+metadata/_edit_lock_ = true
+
+[node name="Wood5" type="Sprite2D" parent="BackObjects/Objects"]
+position = Vector2(6101, 3884)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("13_eduth")
+metadata/_edit_lock_ = true
+
+[node name="Wood6" type="Sprite2D" parent="BackObjects/Objects"]
+position = Vector2(7994, 3758)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("14_7yyoa")
+metadata/_edit_lock_ = true
+
+[node name="Wood4" type="Sprite2D" parent="BackObjects/Objects"]
+position = Vector2(7938, 3876)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("13_eduth")
+metadata/_edit_lock_ = true
+
+[node name="Torch1" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(7933, 3543)
+scale = Vector2(0.25, 0.25)
+metadata/_edit_lock_ = true
+
+[node name="Torch2" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(8055, 3542)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch3" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(4594, 3784)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch4" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(6558, 3747)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch5" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(7218, 3761)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch6" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(9324, 3777)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch7" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(49523, 3196)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch8" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(21075, 3735)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch9" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(22270, 3063)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch10" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(23029, 3428)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch11" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(23486, 2985)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch12" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(21681, 3468)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch13" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(21066, 2988)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch14" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(24694, 3295)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch15" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(25080, 3603)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch16" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(25840, 3791)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch17" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(26879, 3725)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Torch18" parent="BackObjects/Objects" instance=ExtResource("15_sb4a8")]
+position = Vector2(26120, 3245)
+scale = Vector2(0.25, 0.25)
+frame_progress = 0.0
+metadata/_edit_lock_ = true
+
+[node name="Floor" type="Node2D" parent="BackObjects"]
+metadata/_edit_lock_ = true
+
+[node name="Floor1" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(2548, 4287)
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor19" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(1901, 4356)
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor4" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(4465, 4137)
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor6" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(4834, 4117)
+rotation = 0.226893
+scale = Vector2(0.5, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor5" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(5222, 4135)
+rotation = 0.179769
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor7" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(5633, 4125)
+rotation = 0.0558505
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor8" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(6258, 4078)
+rotation = -0.0436332
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor9" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(6873, 4048)
+rotation = 0.139626
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor10" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(7479, 4074)
+rotation = 0.139626
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor11" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(8111, 4097)
+rotation = 0.139626
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor16" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(11198, 4058)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor17" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(11858, 4048)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor18" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(12564, 4136)
+rotation = 0.303687
+scale = Vector2(1.6, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor20" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(13275, 4352)
+rotation = 0.432842
+scale = Vector2(1.65, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor21" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(14070, 4501)
+rotation = 0.0715585
+scale = Vector2(1.65, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor22" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(14898, 4345)
+rotation = -0.300197
+scale = Vector2(1.65, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor25" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(17235, 3938)
+rotation = 0.148353
+scale = Vector2(1.6, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor26" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(18085, 3998)
+rotation = 0.132645
+scale = Vector2(1.6, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor29" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(20526, 4051)
+rotation = 0.0383972
+scale = Vector2(1.6, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor52" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(57243, 3524)
+rotation = 0.0872665
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor51" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(56589, 3519)
+rotation = 0.0872665
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor50" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(55938, 3516)
+rotation = 0.0872665
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor49" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(55279, 3516)
+rotation = 0.0872665
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor48" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(54620, 3513)
+rotation = 0.0715585
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor47" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(53972, 3513)
+rotation = 0.0715585
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor46" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(53311, 3523)
+rotation = 0.0715585
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor45" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(52642, 3528)
+rotation = 0.0715585
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor44" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(51994, 3528)
+rotation = 0.0715585
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor43" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(51343, 3525)
+rotation = 0.0715585
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor42" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(50689, 3533)
+rotation = 0.0715585
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor41" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(50043, 3530)
+rotation = 0.0715585
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor40" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(49395, 3533)
+rotation = 0.0715585
+scale = Vector2(1.268, 0.999999)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor39" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(48762, 3525)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor38" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(48114, 3530)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor37" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(47476, 3535)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor36" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(46846, 3538)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor35" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(46208, 3538)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor33" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(45549, 3546)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor32" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(44915, 3553)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor31" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(44278, 3560)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor30" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(43639, 3569)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor28" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(19714, 4071)
+rotation = 0.0383972
+scale = Vector2(1.6, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor27" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(18900, 4050)
+rotation = 0.132645
+scale = Vector2(1.6, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor24" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(16448, 3898)
+rotation = 0.0610865
+scale = Vector2(1.6, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor23" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(15676, 4054)
+rotation = -0.300197
+scale = Vector2(1.65, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor15" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(10672, 4068)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor14" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(10030, 4081)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor13" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(9405, 4095)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor12" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(8756, 4103)
+rotation = 0.0715585
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor3" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(3822, 4188)
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Floor2" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(3205, 4233)
+scale = Vector2(1.268, 1)
+texture = ExtResource("4_1t6mn")
+metadata/_edit_lock_ = true
+
+[node name="Grass4" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(58001, 3503)
+scale = Vector2(1.58, 1.36)
+texture = ExtResource("5_vc8ie")
+metadata/_edit_lock_ = true
+
+[node name="Grass3" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(58844, 3519)
+scale = Vector2(1.75, 1.51)
+texture = ExtResource("5_vc8ie")
+metadata/_edit_lock_ = true
+
+[node name="Grass2" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(59830, 3540)
+scale = Vector2(2.11, 1.8)
+texture = ExtResource("5_vc8ie")
+metadata/_edit_lock_ = true
+
+[node name="Grass5" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(60935, 3563)
+scale = Vector2(2.11, 1.8)
+texture = ExtResource("5_vc8ie")
+metadata/_edit_lock_ = true
+
+[node name="Grass1" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(57616, 3396)
+texture = ExtResource("6_0hypk")
+metadata/_edit_lock_ = true
+
+[node name="Platform3" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(22572, 4028)
+scale = Vector2(2, 2)
+texture = ExtResource("33_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Platform2" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(21834, 4017)
+scale = Vector2(2, 2)
+texture = ExtResource("33_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Platform1" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(21363, 4026)
+scale = Vector2(2, 2)
+texture = ExtResource("33_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Platform10" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(36023, 3869)
+scale = Vector2(2, 2)
+texture = ExtResource("33_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Platform11" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(35229, 3859)
+scale = Vector2(2, 2)
+texture = ExtResource("33_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Platform12" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(34418, 3852)
+scale = Vector2(2, 2)
+texture = ExtResource("33_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Platform9" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(27300, 3983)
+scale = Vector2(2, 2)
+texture = ExtResource("33_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Platform8" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(26506, 3990)
+rotation = -0.0523599
+scale = Vector2(2, 2)
+texture = ExtResource("33_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Platform7" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(25712, 4015)
+scale = Vector2(2, 2)
+texture = ExtResource("33_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Platform6" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(24927, 4015)
+scale = Vector2(2, 2)
+texture = ExtResource("33_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Platform5" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(24137, 4019)
+scale = Vector2(2, 2)
+texture = ExtResource("33_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Platform4" type="Sprite2D" parent="BackObjects/Floor"]
+position = Vector2(23372, 4022)
+scale = Vector2(2, 2)
+texture = ExtResource("33_nguph")
+metadata/_edit_lock_ = true
+
+[node name="Furniture" type="Node2D" parent="BackObjects"]
+metadata/_edit_lock_ = true
+
+[node name="Ladder2" type="Sprite2D" parent="BackObjects/Furniture"]
+position = Vector2(26722, 3719)
+texture = ExtResource("40_bqsoo")
+metadata/_edit_lock_ = true
+
+[node name="Ladder3" type="Sprite2D" parent="BackObjects/Furniture"]
+position = Vector2(26723, 3594)
+texture = ExtResource("40_bqsoo")
+metadata/_edit_lock_ = true
+
+[node name="Ladder1" type="Sprite2D" parent="BackObjects/Furniture"]
+position = Vector2(26719, 3845)
+texture = ExtResource("41_kokrn")
+metadata/_edit_lock_ = true
+
+[node name="Ladder4" type="Sprite2D" parent="BackObjects/Furniture"]
+position = Vector2(26721, 3469)
+texture = ExtResource("42_c47yd")
+metadata/_edit_lock_ = true
+
+[node name="Ladder5" type="Sprite2D" parent="BackObjects/Furniture"]
+position = Vector2(25535, 3239)
+texture = ExtResource("40_bqsoo")
+metadata/_edit_lock_ = true
+
+[node name="Ladder6" type="Sprite2D" parent="BackObjects/Furniture"]
+position = Vector2(25536, 3114)
+texture = ExtResource("40_bqsoo")
+metadata/_edit_lock_ = true
+
+[node name="Ladder7" type="Sprite2D" parent="BackObjects/Furniture"]
+position = Vector2(25532, 3365)
+texture = ExtResource("41_kokrn")
+metadata/_edit_lock_ = true
+
+[node name="Ladder8" type="Sprite2D" parent="BackObjects/Furniture"]
+position = Vector2(25534, 2989)
+texture = ExtResource("42_c47yd")
+metadata/_edit_lock_ = true
+
+[node name="Ladder9" type="Sprite2D" parent="BackObjects/Furniture"]
+position = Vector2(26217, 2723)
+texture = ExtResource("40_bqsoo")
+metadata/_edit_lock_ = true
+
+[node name="Ladder10" type="Sprite2D" parent="BackObjects/Furniture"]
+position = Vector2(26218, 2598)
+texture = ExtResource("40_bqsoo")
+metadata/_edit_lock_ = true
+
+[node name="Ladder11" type="Sprite2D" parent="BackObjects/Furniture"]
+position = Vector2(26214, 2849)
+texture = ExtResource("41_kokrn")
+metadata/_edit_lock_ = true
+
+[node name="Ladder12" type="Sprite2D" parent="BackObjects/Furniture"]
+position = Vector2(26216, 2473)
+texture = ExtResource("42_c47yd")
+metadata/_edit_lock_ = true
+
+[node name="Tutorial" type="Node2D" parent="BackObjects"]
+metadata/_edit_lock_ = true
+
+[node name="Keymovement" type="Sprite2D" parent="BackObjects/Tutorial"]
+position = Vector2(3154, 3999)
+scale = Vector2(0.333, 0.333)
+texture = ExtResource("26_hrstw")
+metadata/_edit_lock_ = true
+
+[node name="Movement" type="Sprite2D" parent="BackObjects/Tutorial"]
+position = Vector2(3283, 3967)
+scale = Vector2(0.333, 0.333)
+texture = ExtResource("27_83omp")
+metadata/_edit_lock_ = true
+
+[node name="KeyJump" type="Sprite2D" parent="BackObjects/Tutorial"]
+position = Vector2(4985, 3898)
+scale = Vector2(0.333, 0.333)
+texture = ExtResource("28_rutiv")
+metadata/_edit_lock_ = true
+
+[node name="Jump" type="Sprite2D" parent="BackObjects/Tutorial"]
+position = Vector2(5129, 3899)
+scale = Vector2(0.333, 0.333)
+texture = ExtResource("29_moec6")
+metadata/_edit_lock_ = true
+
+[node name="KeyAttack" type="Sprite2D" parent="BackObjects/Tutorial"]
+position = Vector2(7709, 3840)
+scale = Vector2(0.333, 0.333)
+texture = ExtResource("32_31xfj")
+metadata/_edit_lock_ = true
+
+[node name="Attack" type="Sprite2D" parent="BackObjects/Tutorial"]
+position = Vector2(7793, 3851)
+scale = Vector2(0.333, 0.333)
+texture = ExtResource("33_asqt8")
+metadata/_edit_lock_ = true
+
+[node name="Crouch" type="Sprite2D" parent="BackObjects/Tutorial"]
+position = Vector2(11947, 3829)
+scale = Vector2(0.333, 0.333)
+texture = ExtResource("34_fbgu5")
+metadata/_edit_lock_ = true
+
+[node name="KeyCrouch" type="Sprite2D" parent="BackObjects/Tutorial"]
+position = Vector2(11828, 3815)
+scale = Vector2(0.333, 0.333)
+texture = ExtResource("35_lwivu")
+metadata/_edit_lock_ = true
+
+[node name="Interactuables" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="Enemies" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="Player" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="FrontObjects" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="Castles" type="Node2D" parent="FrontObjects"]
+metadata/_edit_lock_ = true
+
+[node name="InitialWall" type="Node2D" parent="FrontObjects/Castles"]
+metadata/_edit_lock_ = true
+
+[node name="Wall1" type="Sprite2D" parent="FrontObjects/Castles/InitialWall"]
+position = Vector2(2073, 3910)
+texture = ExtResource("6_h1l8o")
+metadata/_edit_lock_ = true
+
+[node name="Wall2" type="Sprite2D" parent="FrontObjects/Castles/InitialWall"]
+position = Vector2(2435, 3638)
+scale = Vector2(2, 1.8)
+texture = ExtResource("27_b3cgj")
+metadata/_edit_lock_ = true
+
+[node name="Wall3" type="Sprite2D" parent="FrontObjects/Castles/InitialWall"]
+position = Vector2(1748, 3542)
+rotation = -0.0523599
+scale = Vector2(1.7, 1.6)
+texture = ExtResource("28_qpjic")
+metadata/_edit_lock_ = true
+
+[node name="Basement" type="Node2D" parent="FrontObjects/Castles"]
+metadata/_edit_lock_ = true
+
+[node name="Wall3" type="Sprite2D" parent="FrontObjects/Castles/Basement"]
+position = Vector2(14049, 3321)
+scale = Vector2(2.2, 2.2)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall4" type="Sprite2D" parent="FrontObjects/Castles/Basement"]
+position = Vector2(14051, 3475)
+scale = Vector2(2.2, 2.2)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall2" type="Sprite2D" parent="FrontObjects/Castles/Basement"]
+position = Vector2(14053, 3629)
+scale = Vector2(2.2, 2.2)
+texture = ExtResource("11_maqk5")
+metadata/_edit_lock_ = true
+
+[node name="Wall1" type="Sprite2D" parent="FrontObjects/Castles/Basement"]
+position = Vector2(14201, 4075)
+scale = Vector2(1.5, 1.7)
+texture = ExtResource("5_3kygc")
+metadata/_edit_lock_ = true
+
+[node name="Castle" type="Node2D" parent="FrontObjects/Castles"]
+metadata/_edit_lock_ = true
+
+[node name="Wall1" type="Sprite2D" parent="FrontObjects/Castles/Castle"]
+position = Vector2(22431, 3626)
+scale = Vector2(1.3, 1.6)
+texture = ExtResource("5_3kygc")
+metadata/_edit_lock_ = true
+
+[node name="Wall2" type="Sprite2D" parent="FrontObjects/Castles/Castle"]
+position = Vector2(24227, 3626)
+scale = Vector2(1.3, 1.6)
+texture = ExtResource("5_3kygc")
+metadata/_edit_lock_ = true
+
+[node name="Objects" type="Node2D" parent="FrontObjects"]
+metadata/_edit_lock_ = true
+
+[node name="Obstacle1" type="Sprite2D" parent="FrontObjects/Objects"]
+position = Vector2(5372, 3936)
+texture = ExtResource("11_kgd8n")
+metadata/_edit_lock_ = true
+
+[node name="Water" type="Node2D" parent="FrontObjects"]
+metadata/_edit_lock_ = true
+
+[node name="WaterLight1" type="PointLight2D" parent="FrontObjects/Water"]
+position = Vector2(31217.7, 3918.8)
+rotation = 3.14159
+scale = Vector2(13.8272, 5.4769)
+color = Color(0.713531, 0.434694, 0.258727, 1)
+energy = 3.0
+blend_mode = 1
+texture = ExtResource("56_u1ev3")
+metadata/_edit_lock_ = true
+
+[node name="WaterLight2" type="PointLight2D" parent="FrontObjects/Water"]
+position = Vector2(28571.5, 3918.8)
+rotation = 3.14159
+scale = Vector2(1.13436, 5.4769)
+color = Color(0.713531, 0.434694, 0.258727, 1)
+energy = 3.0
+blend_mode = 1
+texture = ExtResource("56_u1ev3")
+metadata/_edit_lock_ = true
+
+[node name="SolidWalls" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="ActionMan" parent="." instance=ExtResource("55_c47yd")]
+position = Vector2(29230, 3564)
