@@ -1,0 +1,112 @@
+[gd_scene load_steps=13 format=3 uid="uid://bt4wul1n43fcw"]
+
+[ext_resource type="Texture2D" uid="uid://fj1iw5okknn8" path="res://Assets/Sprites/Menu/Particles/Particle Light.png" id="1_dt206"]
+[ext_resource type="Texture2D" uid="uid://wa0dtycmfy4v" path="res://Assets/Sprites/General/Lever/Lever1.png" id="1_h81r2"]
+[ext_resource type="Texture2D" uid="uid://cjar60ht2mf3f" path="res://Assets/Sprites/General/Lever/lever2.png" id="2_m5yqo"]
+[ext_resource type="Texture2D" uid="uid://fnv6sbil32ei" path="res://Assets/Sprites/General/Lever/lever3.png" id="3_dt206"]
+[ext_resource type="Texture2D" uid="uid://dycescnvlvk1h" path="res://Assets/Sprites/General/Lights/Light_round.png" id="5_8p4yu"]
+
+[sub_resource type="Curve" id="Curve_ud56f"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.264706, 0.730337), 0.0, 0.0, 0, 0, Vector2(0.757353, 0.719101), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_jefjo"]
+curve = SubResource("Curve_ud56f")
+
+[sub_resource type="Curve" id="Curve_5hvhy"]
+_data = [Vector2(0, 0.157303), 0.0, 0.0, 0, 0, Vector2(0.308824, 0.505618), 0.0, 0.0, 0, 0, Vector2(0.617647, 0.550562), 0.371698, 0.371698, 0, 0, Vector2(1, 0.011236), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_mx0dj"]
+curve = SubResource("Curve_5hvhy")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_mtnf0"]
+particle_flag_disable_z = true
+emission_shape_scale = Vector3(70, 1, 1)
+emission_shape = 3
+emission_box_extents = Vector3(1, 1, 1)
+gravity = Vector3(0, -120, 0)
+scale_curve = SubResource("CurveTexture_mx0dj")
+color = Color(1, 1, 0.752941, 1)
+alpha_curve = SubResource("CurveTexture_jefjo")
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8p4yu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_h81r2")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_h81r2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_m5yqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dt206")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_h81r2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_m5yqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dt206")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_h81r2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_m5yqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dt206")
+}],
+"loop": false,
+"name": &"move",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ud56f"]
+radius = 70.0643
+
+[node name="AreaLever" type="Area2D"]
+
+[node name="Particles" type="GPUParticles2D" parent="."]
+position = Vector2(0, -43)
+rotation = -3.14159
+amount = 30
+texture = ExtResource("1_dt206")
+lifetime = 1.7
+speed_scale = 0.5
+randomness = 1.0
+fixed_fps = 60
+process_material = SubResource("ParticleProcessMaterial_mtnf0")
+metadata/_edit_lock_ = true
+
+[node name="Animation" type="AnimatedSprite2D" parent="."]
+position = Vector2(-2, -55)
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_8p4yu")
+animation = &"idle"
+autoplay = "idle"
+metadata/_edit_lock_ = true
+
+[node name="Light" type="PointLight2D" parent="."]
+position = Vector2(3, -69)
+energy = 1.5
+texture = ExtResource("5_8p4yu")
+texture_scale = 0.5
+metadata/_edit_lock_ = true
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(10, -74)
+shape = SubResource("CircleShape2D_ud56f")
+debug_color = Color(0.556707, 0.561293, 5.77569e-07, 0.42)
+metadata/_edit_lock_ = true

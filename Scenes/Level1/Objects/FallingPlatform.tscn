@@ -1,0 +1,194 @@
+[gd_scene load_steps=27 format=3 uid="uid://b4imryrka72nw"]
+
+[ext_resource type="Script" uid="uid://6nybrlt4eiyi" path="res://Scripts/Level1/Objects/FallingPlatform.gd" id="1_6sdhx"]
+[ext_resource type="Texture2D" uid="uid://d3nppjw642ysx" path="res://Assets/Sprites/General/FallingPlatform/1.PNG" id="2_0wtei"]
+[ext_resource type="Texture2D" uid="uid://cvqjunopcpql8" path="res://Assets/Sprites/General/FallingPlatform/2.PNG" id="3_5x1u2"]
+[ext_resource type="Texture2D" uid="uid://d3btjr7s6rjer" path="res://Assets/Sprites/General/FallingPlatform/3.PNG" id="4_ol2vo"]
+[ext_resource type="Texture2D" uid="uid://dug5iy1bel32b" path="res://Assets/Sprites/General/FallingPlatform/4.PNG" id="5_6j078"]
+[ext_resource type="Texture2D" uid="uid://dmjamf6jmrmuv" path="res://Assets/Sprites/General/FallingPlatform/5.PNG" id="6_in56b"]
+[ext_resource type="Texture2D" uid="uid://c6g0gfs5e5wdd" path="res://Assets/Sprites/General/FallingPlatform/6.PNG" id="7_yojmm"]
+[ext_resource type="Texture2D" uid="uid://cdawajcye0kgc" path="res://Assets/Sprites/General/FallingPlatform/7.PNG" id="8_go7mo"]
+[ext_resource type="Texture2D" uid="uid://do48louc7j64o" path="res://Assets/Sprites/General/FallingPlatform/8.PNG" id="9_owjyb"]
+[ext_resource type="Texture2D" uid="uid://dmrfufr7e21uq" path="res://Assets/Sprites/General/FallingPlatform/9.PNG" id="10_0gse1"]
+[ext_resource type="Texture2D" uid="uid://cofqylpp1pdho" path="res://Assets/Sprites/General/FallingPlatform/10.PNG" id="11_xpxth"]
+[ext_resource type="Texture2D" uid="uid://4iehiubd8bu8" path="res://Assets/Sprites/General/FallingPlatform/11.PNG" id="12_661ar"]
+[ext_resource type="Texture2D" uid="uid://bb84jx5eaed66" path="res://Assets/Sprites/General/FallingPlatform/12.PNG" id="13_yxxvo"]
+[ext_resource type="Texture2D" uid="uid://bj3k0qycbsytk" path="res://Assets/Sprites/General/FallingPlatform/13.PNG" id="14_vt5q4"]
+[ext_resource type="Texture2D" uid="uid://clm8xc052nw64" path="res://Assets/Sprites/General/FallingPlatform/14.PNG" id="15_burbd"]
+[ext_resource type="Texture2D" uid="uid://qfbmkv2r1ybs" path="res://Assets/Sprites/General/FallingPlatform/15.PNG" id="16_1wt7v"]
+[ext_resource type="Texture2D" uid="uid://wtwufyfksj1a" path="res://Assets/Sprites/General/FallingPlatform/16.PNG" id="17_ih42l"]
+[ext_resource type="Texture2D" uid="uid://cg63x4h5shywd" path="res://Assets/Sprites/General/FallingPlatform/17.PNG" id="18_qcpjl"]
+[ext_resource type="Texture2D" uid="uid://cntkus6474tej" path="res://Assets/Sprites/General/FallingPlatform/18.PNG" id="19_d1w7h"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tsisf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_0wtei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_5x1u2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ol2vo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6j078")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_in56b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_yojmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_go7mo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_owjyb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_0gse1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_xpxth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_661ar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_yxxvo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_vt5q4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_burbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_1wt7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ih42l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_qcpjl")
+}],
+"loop": false,
+"name": &"falling",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_d1w7h")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6sdhx"]
+size = Vector2(278, 49)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0wtei"]
+size = Vector2(269, 19)
+
+[sub_resource type="Animation" id="Animation_5x1u2"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Image:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_ol2vo"]
+resource_name = "falling"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Image:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.402094, 0.502617, 0.600689, 0.699986, 0.801735, 0.899807, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0349066, 0.0, -0.0349066, 0.0, 0.0349066, 0.0, -0.0349066, 0.0, 0.0349066, 0.0]
+}
+
+[sub_resource type="Animation" id="Animation_0wtei"]
+resource_name = "idle"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Image:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6j078"]
+_data = {
+&"RESET": SubResource("Animation_5x1u2"),
+&"falling": SubResource("Animation_ol2vo"),
+&"idle": SubResource("Animation_0wtei")
+}
+
+[node name="FallingPlatform" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 0
+floor_max_angle = 0.0
+platform_floor_layers = 4294967041
+script = ExtResource("1_6sdhx")
+
+[node name="Image" type="AnimatedSprite2D" parent="."]
+position = Vector2(2, 47)
+scale = Vector2(0.666, 0.666)
+sprite_frames = SubResource("SpriteFrames_tsisf")
+animation = &"falling"
+autoplay = "idle"
+metadata/_edit_lock_ = true
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 22)
+shape = SubResource("RectangleShape2D_6sdhx")
+debug_color = Color(0.557565, 0.397247, 1, 0.42)
+metadata/_edit_lock_ = true
+
+[node name="Detector" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 4
+monitorable = false
+metadata/_edit_lock_ = true
+
+[node name="Collision" type="CollisionShape2D" parent="Detector"]
+position = Vector2(-0.5, -13.5)
+shape = SubResource("RectangleShape2D_0wtei")
+debug_color = Color(0.52302, 0.573587, 0, 0.42)
+metadata/_edit_lock_ = true
+
+[node name="Animation" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_6j078")
+}
+autoplay = "idle"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[connection signal="body_shape_entered" from="Detector" to="." method="_on_detector_body_shape_entered"]
+[connection signal="animation_finished" from="Animation" to="." method="_on_animation_animation_finished"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

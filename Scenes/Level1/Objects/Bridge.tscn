@@ -1,0 +1,76 @@
+[gd_scene load_steps=12 format=3 uid="uid://c8x88qttrnvdr"]
+
+[ext_resource type="Texture2D" uid="uid://jsyddi3f2ulr" path="res://Assets/Sprites/Level1/Bridge/Bridge1.png" id="1_ienk7"]
+[ext_resource type="Texture2D" uid="uid://bxpq3nk8dilnw" path="res://Assets/Sprites/Level1/Bridge/Bridge2.png" id="2_mjics"]
+[ext_resource type="Texture2D" uid="uid://v6yyaux71q71" path="res://Assets/Sprites/Level1/Bridge/Bridge3.png" id="3_xiy66"]
+[ext_resource type="Texture2D" uid="uid://bbs7sq2xobemq" path="res://Assets/Sprites/Level1/Bridge/Bridge4.png" id="4_t7awg"]
+[ext_resource type="Texture2D" uid="uid://bjtuy0e0w0kyc" path="res://Assets/Sprites/Level1/Bridge/Bridge5.png" id="5_pnrfx"]
+[ext_resource type="Texture2D" uid="uid://d4ajs0d31f2eq" path="res://Assets/Sprites/Level1/Bridge/Bridge6.png" id="6_y6fio"]
+[ext_resource type="Texture2D" uid="uid://dkie8bio7g0gq" path="res://Assets/Sprites/Level1/Bridge/Bridge7.png" id="7_87hm4"]
+[ext_resource type="Texture2D" uid="uid://calk8047f1rtt" path="res://Assets/Sprites/Level1/Bridge/Bridge8.png" id="8_pgrhi"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qgwii"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ienk7")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ienk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_mjics")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_xiy66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_t7awg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_pnrfx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_y6fio")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_87hm4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_pgrhi")
+}],
+"loop": false,
+"name": &"open",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l83j4"]
+size = Vector2(1116.5, 45)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ojfxw"]
+size = Vector2(1116.5, 45)
+
+[node name="Bridge" type="StaticBody2D"]
+
+[node name="AnimaBridge" type="AnimatedSprite2D" parent="."]
+position = Vector2(949, -514)
+sprite_frames = SubResource("SpriteFrames_qgwii")
+animation = &"idle"
+autoplay = "idle"
+metadata/_edit_lock_ = true
+
+[node name="CollisionClose" type="CollisionShape2D" parent="."]
+position = Vector2(57, -562)
+rotation = 1.62316
+shape = SubResource("RectangleShape2D_l83j4")
+metadata/_edit_lock_ = true
+
+[node name="CollisionOpen" type="CollisionShape2D" parent="."]
+position = Vector2(565.75, -14.5)
+shape = SubResource("RectangleShape2D_ojfxw")
+metadata/_edit_lock_ = true

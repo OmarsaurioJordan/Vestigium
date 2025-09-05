@@ -13,9 +13,11 @@ height = 112.0
 [node name="ColliderUp" type="CollisionShape2D" parent="."]
 position = Vector2(0, -113)
 shape = SubResource("CapsuleShape2D_24pmt")
+debug_color = Color(2.64719e-06, 0.641065, 0.340224, 0.42)
 metadata/_edit_lock_ = true
 
 [node name="ColliderDown" type="CollisionShape2D" parent="."]
 position = Vector2(0, -56)
 shape = SubResource("CapsuleShape2D_3fbvw")
+debug_color = Color(2.64719e-06, 0.641065, 0.340224, 0.42)
 metadata/_edit_lock_ = true

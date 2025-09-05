@@ -1,0 +1,63 @@
+[gd_scene load_steps=9 format=3 uid="uid://bgcr0pf7oyglh"]
+
+[ext_resource type="Texture2D" uid="uid://c3lbfgmnil8qi" path="res://Assets/Sprites/General/Checkpoint/0.png" id="1_7kxmn"]
+[ext_resource type="Texture2D" uid="uid://7bb2hpe1okn0" path="res://Assets/Sprites/General/Checkpoint/1.png" id="2_58xx6"]
+[ext_resource type="Texture2D" uid="uid://wm5ysuxen15e" path="res://Assets/Sprites/General/Checkpoint/2.png" id="3_sjmai"]
+[ext_resource type="Texture2D" uid="uid://cxjk20atttf70" path="res://Assets/Sprites/General/Checkpoint/3.png" id="4_jvk3m"]
+[ext_resource type="Texture2D" uid="uid://bbudu7sioeob4" path="res://Assets/Sprites/General/Checkpoint/4.png" id="5_ga7bb"]
+[ext_resource type="Texture2D" uid="uid://dycescnvlvk1h" path="res://Assets/Sprites/General/Lights/Light_round.png" id="6_58xx6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_iwike"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7kxmn")
+}],
+"loop": true,
+"name": &"off",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_58xx6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_sjmai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jvk3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ga7bb")
+}],
+"loop": true,
+"name": &"on",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qrr5q"]
+radius = 61.0328
+
+[node name="Checkpoint" type="Area2D"]
+
+[node name="Animator" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -91)
+scale = Vector2(0.3, 0.25)
+sprite_frames = SubResource("SpriteFrames_iwike")
+animation = &"off"
+autoplay = "off"
+frame_progress = 0.659932
+metadata/_edit_lock_ = true
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -132)
+shape = SubResource("CircleShape2D_qrr5q")
+debug_color = Color(0.504099, 0.579954, 0, 0.42)
+
+[node name="Light" type="PointLight2D" parent="."]
+position = Vector2(0, -135)
+color = Color(0.882353, 0.901961, 0.0705882, 1)
+energy = 1.5
+texture = ExtResource("6_58xx6")
+texture_scale = 0.6
+metadata/_edit_lock_ = true

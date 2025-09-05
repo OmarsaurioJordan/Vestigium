@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://f3e6esmd6dyq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_twu4k"]
+size = Vector2(203.75, 84.2861)
+
+[node name="TierCollider" type="StaticBody2D" groups=["tier_colliders"]]
+collision_layer = 2
+collision_mask = 0
+
+[node name="Collider" type="CollisionShape2D" parent="."]
+position = Vector2(1.25, 39.2847)
+shape = SubResource("RectangleShape2D_twu4k")
+debug_color = Color(0.531476, 0.412185, 1, 0.42)
+metadata/_edit_lock_ = true
